@@ -44,7 +44,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: ${{ github.event_name != 'pull_request' }}
-          tags: scss/scs-notification:latest
+          tags: erik1303/scss/scs-notification:latest
 
   # deploy:
   #   needs: [build]
